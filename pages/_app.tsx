@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       activeChain={activeChain}
       supportedWallets={[
         metamaskWallet(),
-        coin98Wallet(),        
        ]}
     >
       <Component {...pageProps} />
